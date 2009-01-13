@@ -1,7 +1,21 @@
-Description:
-A Simple Wordpress plug-in which enables you to show a current status/mood on your website, it includes full administration of your current status, and the apperance of the status holder can be fully altered using CSS within the admin page. This is only the first version and more concise versions will be released if it proves to be popular.
+=== Plugin Name ===
+Contributors: DanielSands
+Donate link: http://www.danielsands.co.cc/
+Tags: Status, Mood, Current, Facebook, MySpace
+Requires at least: 2.0.2
+Tested up to: 2.7
+Stable tag: 1.01
 
-Instructions:
+A Simple Wordpress plug-in which enables you to show a current status/mood on your website.
+
+== Description ==
+
+A Simple Wordpress plug-in which enables you to show a current status/mood on your website, 
+it includes full administration of your current status, and the apperance of the status holder can be 
+fully altered using CSS within the admin page. This is only the first version and more concise versions 
+will be released if it proves to be popular..
+
+== Installation ==
 
 1) Upload the file 'MyStatus.php' to your wordpress plug-in's directory (wp-content/plugins)
 2) Log-in to your administration page and click Plugins then activate the 'MyStatus' plugin.
@@ -14,3 +28,8 @@ Instructions:
 5) Click Save Settings.
 6) At the top of the screen you will see 'Your name' [IS   ] simply enter your current mood / status in the text box and click 'Update', et voila! You now have a status box on your site.
 
+== Frequently Asked Questions ==
+
+== Screenshots ==
+
+/tags/1.01/MyStatus_Screen1.jpg
