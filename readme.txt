@@ -32,4 +32,4 @@ will be released if it proves to be popular..
 
 == Screenshots ==
 
-/tags/1.01/MyStatus_Screen1.jpg
+`/tags/1.01/MyStatus_Screen1.jpg`
