@@ -3,7 +3,7 @@
 Plugin Name: MyStatus
 Plugin URI: http://www.danielsands.co.cc
 Description: A simple and easy to use plug-in that allows users to show their current status on their blog.
-Version: 1.10
+Version: 1.20
 Author: Daniel Sands
 Author URI: http://www.danielsands.co.cc
 */
@@ -111,7 +111,7 @@ register_activation_hook(__FILE__,'initial_setup');
 if (get_option("MyStatus_Version")=='1.01') { 
 //for update to 1.10
 	add_option("MyStatus_RunFunction", "on");
-	update_option("MyStatus_Version")=='1.10')
+	update_option("MyStatus_Version",'1.10');
 }
 
 
