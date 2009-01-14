@@ -4,7 +4,7 @@ Donate link: http://www.danielsands.co.cc/
 Tags: Status, Mood, Current, Facebook, MySpace
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: 1.10
+Stable tag: 1.11
 
 A Simple Wordpress plug-in which enables you to show a current status/mood on your website.
 
