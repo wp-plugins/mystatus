@@ -4,7 +4,7 @@ Donate link: http://www.danielsands.co.cc/
 Tags: Status, Mood, Current, Facebook, MySpace
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: 1.02
+Stable tag: 1.10
 
 A Simple Wordpress plug-in which enables you to show a current status/mood on your website.
 
@@ -14,6 +14,30 @@ A Simple Wordpress plug-in which enables you to show a current status/mood on yo
 it includes full administration of your current status, and the apperance of the status holder can be 
 fully altered using CSS within the admin page. This is only the first version and more concise versions 
 will be released if it proves to be popular..
+
+**New Version: 1.10**
+This new version includes the following new features:
+1. Status now shows an "X Minutes ago", etc  message to indicate how old the status is. 
+	By default it is included in fresh installations of MyStatus 1.10, however if you're upgrading from Version 1.01 and want to
+	use this feature you must alter the 'Structure' and 'Style' settings in your administration panel, simply add 
+	`<span class="time">%TIME%</span>` 
+	to your structure, after the "%STATUS%" tag and add
+	`.time { 
+	font: normal 10px verdana;
+	}`
+	to your Style setting.
+1. You can now disable the default function to load the status, and call the function directly. To disable the function simply untick the 
+	"Run Function in get_sidebar()" checkbox in the settings screen, you can then use the following code to get the status text:
+ 	`<?php get_current_status($before, $after, $mid) ?>`
+	`<?php get_previous_status($before, $after, $mid) ?>`
+	`<?php get_mystatus_name() ?>`
+	Simply replace $before, $after and $mid with the structure you want, for example:
+	`<?php get_current_status('<span class="status">', '</span>', '</span><span class="time">') ?>`
+	would return:
+	`<span class="status">Current Status will be here</span><span class="time">Time ago status submitted will be here</span>`
+
+**Updating to version 1.10**
+Simply replace the MyStatus.php file in your plugins directory.
 
 == Installation ==
 
