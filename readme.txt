@@ -4,7 +4,7 @@ Donate link: http://www.danielsands.co.cc/
 Tags: Status, Mood, Current, Facebook, MySpace
 Requires at least: 2.0.2
 Tested up to: 2.7
-Stable tag: 1.14
+Stable tag: 1.15
 
 A Simple Wordpress plug-in which enables you to show a current status/mood on your website.
 
@@ -15,9 +15,9 @@ it includes full administration of your current status, and the apperance of the
 fully altered using CSS within the admin page. This is only the first version and more concise versions 
 will be released if it proves to be popular..
 
-**New Version: 1.13**
+**New Version: 1.15**
 This new version includes the following new features:<br />
-1. Status now shows an "X Minutes ago", etc  message to indicate how old the status is. By default it is included in fresh installations of MyStatus 1.10, however if you're upgrading from Version 1.01 and want to use this feature you must alter the 'Structure' and 'Style' settings in your administration panel, simply add<br />
+>1. Status now shows an "X Minutes ago", etc  message to indicate how old the status is. By default it is included in fresh installations of MyStatus 1.10, however if you're upgrading from Version 1.01 and want to use this feature you must alter the 'Structure' and 'Style' settings in your administration panel, simply add<br />
 		>`<span class="time">%TIME%</span>` <br />
 to your structure, after the "%STATUS%" tag and add <br />
 		>`.time { font: normal 10px verdana;}` <br />
@@ -31,7 +31,7 @@ Simply replace $before, $after and $mid with the structure you want, for example
 would return: <br />
 	>`<span class="status">Current Status will be here</span><span class="time">Time ago status submitted will be here</span>`<br />
 	
-**Updating to version 1.13**
+**Updating to version 1.15**
 Simply replace the MyStatus.php file in your plugins directory.
 
 == Installation ==
